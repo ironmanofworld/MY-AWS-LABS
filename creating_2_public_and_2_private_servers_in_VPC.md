@@ -4,7 +4,7 @@
 
 
 Architecture Diagram
-![This is an image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIOW50DGX0F3zAm_UMziuIyHSG38UGTx25bfTs553JGej6bk3iUZiNTQPy5WDxYZCV_HZp8WET4zzjF6xM3f8yIMpAIbwlVgJvdRrc9PjXyJfdCBpWyNn0DP0dkvnevekFzFZDo0zaxOf8Xz4yWDEMTx6y9Em1-TBb-PukQRmT_OHMFB4IyEHvE5GxhA/s1878/Architecture%20VPC.png)
+![This is an image](https://64.media.tumblr.com/e2bef5807bb782a926b7db8c29310581/c9c813a074581f33-02/s2048x3072/5670355100d5821688b7b54ed228358af03aad0c.pnj)
 
 
      
@@ -34,9 +34,9 @@ Architecture Diagram
 
 
 2.1*****creating VPC architecture*****
-![](https://64.media.tumblr.com/e2bef5807bb782a926b7db8c29310581/c9c813a074581f33-02/s2048x3072/5670355100d5821688b7b54ed228358af03aad0c.png)
+![](https://64.media.tumblr.com/e2bef5807bb782a926b7db8c29310581/c9c813a074581f33-02/s2048x3072/5670355100d5821688b7b54ed228358af03aad0c.pnj)
 
-![](https://drive.google.com/file/d/1nwqT25F6NqFBm4XSXKvshFU1WOJzqkIY/view?usp=sharing.png)
+![](https://64.media.tumblr.com/c848dc0dcc1474691c7af1911a56d0cd/c9c813a074581f33-69/s1280x1920/9849baec877e1ab0d1e3e2a1396cde2658b63a15.pnj)
 
 
 6.1*****ADD SECURITY GROUPS INBOUND RULES*****
