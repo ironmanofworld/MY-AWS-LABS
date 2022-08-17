@@ -1,27 +1,27 @@
-## creating 2 public and 2 private servers in VPC
+## Creating 2 public and 2 private subnets in VPC & Get Internet connection to public subnets
 
-**This can be very helpful when when you create private database.**
+**This can be very helpful when you want to create a private database.**
 
 
-Architecture Diagram
+VPC Architecture Diagram
 ![This is an image](https://64.media.tumblr.com/e2bef5807bb782a926b7db8c29310581/c9c813a074581f33-02/s2048x3072/5670355100d5821688b7b54ed228358af03aad0c.pnj)
 
 
      
  **Task Details**:grinning: 
 1. Sign into the AWS Management Console.
-2. Create an VPC.
-3. create 2 public and 2 private subnets, PUBLIC-A,PUBLIC-B, PRIVATE-A,PRIVATE-B.
-4. create route-tables and associate subnets.
-5. create Internet Gateway and attach, IG to vpc.
-6. create Security Group and add 2 public subnets/servers to get internet access, add ssh,http,https inbound rules to anywhere 0.0.0.0/0 s SSH anywhere 0.0.0.0/0.
-7. create NACL Inbound rules For Private subnets and add 2 private servers or subnets, the private subnet dosent need internet access, so you add ssh and 
-   All icmp-ipv4 inbound rules only, to anywhere 0.0.0.0/0
-8. create NACL Outbound rules For 2 Private subnets and add 2 private servers or subnets, the private subnet dosent need internet access, so you add 100-ssh,
-   200-icmp-ipv4, 300-Custom TCP(1024-65535). Outbound rules
-9. Launch 4 instances Individually, create key-pair, In Network settings Attach VPC, Attach Security Group, Auto Assign Public-IP: Enable, PUBLIC-A,PUBLIC-B,
-   PRIVATE-A,PRIVATE-B and add user data, use putty-gen to create a private key and putty to ssh into the servers.
-   user data:
+2. Create a VPC.
+3. create 2 public and 2 private subnets PUBLIC-A, PUBLIC-B, PRIVATE-A, PRIVATE-B.
+4. create route tables and associate subnets.
+5. create an Internet Gateway and attach IG to VPC.
+6. create a Security Group and add 2 public subnets/servers to get internet access. Add ssh, HTTP, HTTPS inbound rules to Anywhere 0.0.0.0/0 s SSH Anywhere 0.0.0.0/0.
+7. create NACL Inbound rules For Private subnets and add 2 private servers or subnets, the private subnet doesn't need internet access, so you add ssh and 
+   All ICMP-ipv4 inbound rules only, to anywhere 0.0.0.0/0
+8. create NACL Outbound rules For 2 Private subnets and add 2 private servers or subnets, the private subnet doesn't need internet access, so you add 100-ssh,
+   200-ICMP-ipv4, 300-Custom TCP(1024-65535). Outbound rules
+9. Launch 4 instances Individually, and create a key pair. In Network settings, Attach VPC, Attach Security Group, Auto Assign Public-IP: Enable, PUBLIC-A, PUBLIC-B,
+   PRIVATE-A, PRIVATE-B and add user data, use putty-gen to create a private key and putty to ssh into the servers.
+   User data:
    
    :hugs:
    * #!/bin/bash
@@ -30,7 +30,8 @@ Architecture Diagram
    - yum install httpd -y
    - systemctl start httpd
    - systemctl enable httpd
-   - echo "Response coming from server A" > /var/www/html/index.html
+   - echo "Response coming from PUBLIC-A" > /var/www/html/index.html
+
 
 
 
@@ -65,4 +66,7 @@ PUBLIC SERVER-B:hugs::white_check_mark:
 
 *****CLOUDWATCH METRICS OF SERVERS*****:white_check_mark:
 ![](https://64.media.tumblr.com/4b854d9078d359b906663b1a58b5c556/c9c813a074581f33-5b/s2048x3072/236d3364ab4b586891f8bda7928a252f71f9bfe3.pnj)
+
+Thanks, @AWS
+---------Any Queries or Doubts, please contact me in LinkedIn-------------
 
