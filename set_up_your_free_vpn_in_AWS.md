@@ -39,7 +39,7 @@ Architecture
 ![](https://64.media.tumblr.com/3166992c029102af51a314e04dba7a19/6c0978136c4fbe9e-ea/s640x960/730bccc84712c611eadbe4d9c2430367d69287c2.pnj)
 
 
-5.2:white_check_mark:
+5.2:white_check_mark: ****sudo passwd openvpn****
 ![](https://64.media.tumblr.com/9e1c06ea790a792990e240893fc0bbd8/6c0978136c4fbe9e-08/s1280x1920/ad9a44297541ac94dd8a02aa838b97556ca4224b.pnj)
 
 
