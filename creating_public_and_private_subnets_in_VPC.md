@@ -1,10 +1,10 @@
-## Create 2 public and 2 private subnets & Configuring Layered Security in an AWS VPC
+## Create public and private subnet & Configuring Layered Security in an AWS VPC
 
 **This can be very helpful when you want to create a private database.**
 
 
 VPC Architecture Diagram
-![This is an image](https://64.media.tumblr.com/e2bef5807bb782a926b7db8c29310581/c9c813a074581f33-02/s2048x3072/5670355100d5821688b7b54ed228358af03aad0c.pnj)
+![This is an image](https://play.whizlabs.com/frontend/web/media/task_id_66/lab_57_understanding_and_configuring_layered_security_in_an_aws_vpc.png)
 
 
      
@@ -67,6 +67,7 @@ PUBLIC SERVER-B:hugs::white_check_mark:
 *****CLOUDWATCH METRICS OF SERVERS*****:white_check_mark:
 ![](https://64.media.tumblr.com/4b854d9078d359b906663b1a58b5c556/c9c813a074581f33-5b/s2048x3072/236d3364ab4b586891f8bda7928a252f71f9bfe3.pnj)
 
-Thanks, @AWS
+Thanks, @AWS @Whizlabs
+
 ---------Any Queries or Doubts, please contact me in LinkedIn-------------
 
