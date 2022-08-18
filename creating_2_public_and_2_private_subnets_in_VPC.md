@@ -1,4 +1,4 @@
-## Create 2 public and 2 private subnets in VPC
+## Create 2 public and 2 private subnets & Configuring Layered Security in an AWS VPC
 
 **This can be very helpful when you want to create a private database.**
 
