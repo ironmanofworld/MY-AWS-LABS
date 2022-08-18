@@ -69,5 +69,5 @@ PUBLIC SERVER-B:hugs::white_check_mark:
 
 Thanks, @AWS @Whizlabs
 
----------Any Queries or Doubts, please contact me in LinkedIn-------------
+---------If you have any questions, please reach out to me on LinkedIn-------------
 
