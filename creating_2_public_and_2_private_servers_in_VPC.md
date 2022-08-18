@@ -1,4 +1,4 @@
-## Creating 2 public and 2 private subnets in VPC & Get Internet connection to public subnets
+## Creating 2 public and 2 private subnets in VPC & Allow Internet connection to public subnets
 
 **This can be very helpful when you want to create a private database.**
 
