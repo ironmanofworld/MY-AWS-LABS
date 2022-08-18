@@ -61,4 +61,4 @@ Architecture
 
 Thanks, @AWS @Whizlabs
 
----------Any Queries or Doubts, please contact me in LinkedIn-------------
+---------Any questions, please reach out to me on LinkedIn.-------------
